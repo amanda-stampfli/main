@@ -1,0 +1,117 @@
+#Sprint 1:
+#Amanda Stampfli
+#Python is a way for students to practice coding as well as a good place to understand how your computer works.
+print("Hello, welcome to my code! My name is Amanda Stampfli!")
+#My birthday
+print('06','05','2001', sep='-')
+#UIN Number
+print('815227057', sep=" ")
+print('Birthday of', 'Sean', sep=' ', end=' ')
+#\n: Allows a new line
+print('04','07','2004',sep='-', end='\n')
+print('ajstampfli','7057', sep='', end='@')
+print('eagle.fgcu.edu')
+print("Enter your favorite place to eat:")
+#The input() function allows a string
+x = input()
+print("It is, " + x)
+print("Enter your best friend's name: ")
+x = input()
+print("Her name is " + x)
+#Squared
+x = 7
+y = 2
+print(x ** y)
+#Cubed
+tomato = 8
+tamato = 3
+print(tomato ** tamato)
+#Multiplication
+food = 23
+water = 30
+print(food * water)
+#Division
+Disney = 111
+World = 11
+print(Disney/World)
+#Divide and round down
+Naples = 112
+Florida = 60
+print(Naples // Florida)
+#Addition
+Laugh = 235
+Love = 600
+print(Laugh + Love)
+#Subtraction
+Fun = 50035
+Land = 22205
+print(Fun-Land)
+#Divide and output remainder
+Billie = 11
+Eilish = 3
+print(Billie % Eilish)
+#Shortcut Functions
+Office = 23
+Office += 3
+print(Office)
+dog = 15
+dog *=22
+print(dog)
+cat = 65
+cat /= 55
+print(cat)
+Birds = 64
+Birds //= 2
+print(Birds)
+#Sprint 2:
+grade = 98
+if grade >= 95:
+    print("Very good.")
+temp = int(input("Enter the temperature: "))
+if temp >= 75:
+    print("Yay!")
+else:
+    if temp >= 45:
+        print("Too cold")
+    else:
+        print("Not so good.")
+num = 45
+if num > 0:
+    print("Good number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Not a good number")
+money = 20.00
+if money >=20:
+    print("Good amount")
+elif money <20:
+    print("I'm broke")
+drink = 22
+if drink != 25:
+    print("Not true")
+else:
+    print("True")
+mountain = 0
+while (mountain < 20):
+    print("The mountain is:", mountain)
+    mountain = mountain + 1
+print("Goodbye!")
+Dogs = ["Labrador", "Great Dane", "Husky"]
+for x in Dogs:
+    print(x)
+for x in range(10,24,2):
+    print(x, end=" ")
+name = input("what is your dog's name: ")
+for x in range(10):
+    for x in range(7):
+        print(name + " ", end=" ")
+    print()
+def the_best():
+    print("Hello from everyone")
+the_best()
+def my_ownfunction(fcats):
+    print(fcats + " Stampfli")
+my_ownfunction("Nacho")
+my_ownfunction("Potato")
+my_ownfunction("Inky")
